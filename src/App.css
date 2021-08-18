@@ -1,38 +1,142 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Raleway:500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap');
+body {
+  background-image: linear-gradient(to top right, rgb(35, 147, 151), #ac6310);
+  height: 100vh;
+}
+
+.container {
+  border-radius: 29px;
+  margin-top: 60px;
+  padding: 35px;
+  background-color: white;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 8px 32px 0 rgba(151, 156, 226, 0.37);
+}
+
+.form-container {
+  position: relative;
+  text-align: center;
+  height: 40rem;
+  background-image: url('http://localhost:3000/weather-bg.jpg');
+  /* background-color: rgb(211, 115, 77); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+}
+
+.weather-container {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.title-container {
+  margin-top: 100px;
+  letter-spacing: 2px;
   color: white;
+  font-weight: 500;
+  font-size: 48px;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+  margin-top: 18px;
+}
+.city-container {
+  margin-top: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type='text'] {
+  background-color: transparent;
+  border: 0;
+  width: 90%;
+  border-bottom: solid 1px white;
+  padding-bottom: 4px;
+  color: black !important;
+  font-weight: 300;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+button {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 8px 20px;
+  border-radius: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  font-weight: bolder;
+}
+button:hover {
+  background-color: orangered;
+  color: black;
+}
+
+.weather_key {
+  color: #42c4f5;
+  margin-bottom: 0px;
+  font-weight: bolder;
+}
+.location {
+  color: #1074b3;
+  font-size: 22px;
+  margin-top: 12px;
+}
+
+.temperature {
+  font-size: 78px;
+}
+.min_max_temperature {
+  font-size: 22px;
+}
+.humidity {
+  margin-top: 28px;
+  font-size: 18px;
+  font-family: serif;
+}
+.wind_speed {
+  font-size: 18px;
+  font-family: serif;
+}
+.conditions {
+  padding-top: 88px;
+  font-size: 32px;
+  font-style: italic;
+  font-family: serif;
+}
+.error {
+  margin-top: 80px;
+  font-size: 38px;
+  color: red;
+}
+
+.customTooltip {
+  text-align: center;
+  padding: 5px;
+  word-wrap: break-word;
+}
+
+.customToolTipHeader {
+  text-align: center;
+  background: rgb(202, 11, 11);
+  padding: 5px;
+}
+
+.glassMor {
+  background: rgba(12, 175, 235, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.nav-link:focus,
+.nav-link,
+.nav-link:hover {
+  color: #44c6f7 !important;
 }

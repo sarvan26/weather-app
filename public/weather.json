@@ -1,0 +1,100 @@
+{
+    "location":{
+       "woeid": 2502265,
+       "city":"New York",
+       "region":" NY",
+       "country":"USA",
+       "lat":37.371609,
+       "long":-122.038254,
+       "timezone_id":"America/Los_Angeles"
+    },
+    "current_observation":{
+       "wind":{
+          "chill":59,
+          "direction":165,
+          "speed":8.7
+       },
+       "atmosphere":{
+          "humidity":76,
+          "visibility":10,
+          "pressure":29.68
+       },
+       "astronomy":{
+          "sunrise":"7:23 am",
+          "sunset":"5:17 pm"
+       },
+       "condition":{
+          "text":"Scattered Showers",
+          "code":39,
+          "temperature":60,
+          "high":62,
+          "low": 52
+       },
+       "pubDate":1546992000
+    },
+    "forecasts":[
+      {
+         "id": 0,
+         "day":"Mon",
+         "date":1547452800,
+         "low":"47",
+         "high":"58",
+         "text":"Rain",
+         "code":12
+      },
+       {
+         "id": 1,
+          "day":"Tue",
+          "date":1546934400,
+          "low":"52",
+          "high":"61",
+          "text":"Rain",
+          "code":12
+       },
+       {
+         "id": 2,
+          "day":"Wed",
+          "date":1547020800,
+          "low":"51",
+          "high":"62",
+          "text":"Scattered Showers",
+          "code":39
+       },
+       {
+         "id": 3,
+          "day":"Thu",
+          "date":1547107200,
+          "low":"46",
+          "high":"60",
+          "text":"Mostly Cloudy",
+          "code":28
+       },
+       {
+         "id": 4,
+          "day":"Fri",
+          "date":1547193600,
+          "low":"48",
+          "high":"61",
+          "text":"Showers",
+          "code":11
+       },
+       {
+         "id": 5,
+          "day":"Sat",
+          "date":1547280000,
+          "low":"47",
+          "high":"62",
+          "text":"Rain",
+          "code":12
+       },
+       {
+         "id": 6,
+          "day":"Sun",
+          "date":1547366400,
+          "low":"48",
+          "high":"58",
+          "text":"Rain",
+          "code":12
+       }
+    ]
+ }
